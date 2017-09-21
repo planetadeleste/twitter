@@ -39,7 +39,7 @@ class Twitter extends tmhOAuth {
 	/**
 	 * Store the config values
 	 */
-	private $tconfig;
+	private $tconfig = [];
 
 	/**
 	 * Store the config values for the parent class
@@ -61,7 +61,8 @@ class Twitter extends tmhOAuth {
 		{
 			$this->tconfig = $config->get('ttwitter::config');
 		}
-		else if ($config->get('ttwitter'))
+
+		if ($config->get('ttwitter') && empty($this->tconfig))
 		{
 			$this->tconfig = $config->get('ttwitter');
 		}
