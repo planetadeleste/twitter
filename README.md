@@ -9,16 +9,16 @@ You need to create an application and create your access token in the [Applicati
 
 ## Installation
 
-Add `thujohn/twitter` to `composer.json`.
+Add `planetadeleste/twitter` to `composer.json`.
 ```
-"thujohn/twitter": "~2.0"
+"planetadeleste/twitter": "~2.0"
 ```
 
 Run `composer update` to pull down the latest version of Twitter.
 
 Or run
 ```
-composer require thujohn/twitter
+composer require planetadeleste/twitter
 ```
 
 Now open up `/config/app.php` and add the service provider to your `providers` array.
