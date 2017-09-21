@@ -1,7 +1,7 @@
 {
-    "name": "thujohn/twitter",
-    "description": "Twitter API for Laravel",
-	"keywords": ["twitter", "laravel", "laravel4", "laravel5"],
+    "name": "planetadeleste/twitter",
+    "description": "Twitter API for Laravel 4/5 - Under OctoberCMS Plugin",
+	"keywords": ["twitter", "laravel", "laravel4", "laravel5", "octobercms"],
     "license": "MIT",
     "authors": [
         {
