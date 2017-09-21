@@ -3,7 +3,7 @@
 use RunTimeException;
 use Carbon\Carbon as Carbon;
 use Illuminate\Session\Store as SessionStore;
-use Illuminate\Config\Repository as Config;
+use October\Rain\Config\Repository as Config;
 use tmhOAuth;
 
 use Thujohn\Twitter\Traits\AccountTrait;
